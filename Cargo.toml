@@ -1,1 +1,14 @@
+[workspace]
+members = [
+    "crates/core",
+    "crates/transports",
+    "crates/discovery",
+    "crates/crypto"
+]
 
+[workspace.package]
+edition = "2021"
+
+[workspace.dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
