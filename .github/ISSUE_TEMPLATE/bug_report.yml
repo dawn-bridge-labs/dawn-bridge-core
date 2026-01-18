@@ -1,0 +1,33 @@
+name: Bug Report
+description: Report a reproducible bug in Dawn Bridge Core
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the following details to help us reproduce the issue.
+  - type: input
+    id: description
+    attributes:
+      label: Bug Description
+      placeholder: What happened?
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      placeholder: Step-by-step instructions
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: OS, Rust version, etc.
+  - type: dropdown
+    id: module
+    attributes:
+      label: Related Module
+      options:
+        - core
+        - transports
+        - discovery
+        - crypto
