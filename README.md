@@ -7,13 +7,13 @@ Dawn Bridge Core provides pluggable protocols, traffic obfuscation, node discove
 ## Modules
 
 - `core`: Common traits, interfaces, and shared abstractions
-- `transports`: QUIC, TCP, WebSocket, and obfuscated transport protocols
+- `transports`: Implementation of six cutting-edge censorship-resistant protocols (XHTTP, XTLS, Reality, Hysteria2, VLESS, Trojan)
 - `discovery`: Node discovery, metadata exchange, and health checks
 - `crypto`: Key management, handshake protocols, and encryption primitives
 
 ## Protocols
 
-See [PROTOCOLS.md](./PROTOCOLS.md) for details on the six core protocols (XHTTP, XTLS, Reality, Hysteria2, VLESS, Trojan) and their role as the most advanced, effective, and stable technologies for censorship circumvention.
+See [PROTOCOLS.md](./PROTOCOLS.md) for details on the six core protocols and their role as the most advanced, effective, and stable technologies for censorship circumvention.
 
 ## License
 
