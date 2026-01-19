@@ -1,0 +1,14 @@
+# Ignore shell scripts from language statistics
+*.sh linguist-vendored
+
+# Ignore markdown documentation
+*.md linguist-documentation
+
+# Ignore CI and config files
+*.yml linguist-vendored
+*.yaml linguist-vendored
+*.toml linguist-vendored
+
+# Ignore license and changelog
+LICENSE linguist-documentation
+CHANGELOG.md linguist-documentation
