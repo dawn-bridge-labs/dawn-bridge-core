@@ -8,13 +8,13 @@ The architecture is designed to support a distributed node network in future pha
 
 ## Features
 
-- **Modular Rust workspace** with four independent crates (`core`, `transports`, `discovery`, `crypto`)
-- **Six advanced censorship-resistant transport protocols** (XHTTP, XTLS, Reality, Hysteria2, VLESS, Trojan)
-- **Pluggable architecture** allowing future protocols and routing strategies
-- **Traffic obfuscation and protocol camouflage** for adversarial environments
-- **Node discovery and metadata exchange** for dynamic network topologies
-- **Secure handshake and key management primitives**
-- **Designed for integration** into VPNs, proxies, and decentralized communication systems
+- Modular Rust workspace with four independent crates (`core`, `transports`, `discovery`, `crypto`)
+- Six advanced censorship-resistant transport protocols (XHTTP, XTLS, Reality, Hysteria2, VLESS, Trojan)
+- Pluggable architecture allowing future protocols and routing strategies
+- Traffic obfuscation and protocol camouflage for adversarial environments
+- Node discovery and metadata exchange for dynamic network topologies
+- Secure handshake and key management primitives
+- Designed for integration into VPNs, proxies, and decentralized communication systems
 
 ## Modules
 
@@ -25,7 +25,7 @@ The architecture is designed to support a distributed node network in future pha
 
 ## Protocols
 
-See `PROTOCOLS.md` for details on the six core protocols and their role as the most advanced, effective, and stable technologies for censorship circumvention.
+See [PROTOCOLS.md](./PROTOCOLS.md) for details on the six core protocols and their role as the most advanced, effective, and stable technologies for censorship circumvention.
 
 ## Roadmap
 
@@ -38,10 +38,10 @@ See `PROTOCOLS.md` for details on the six core protocols and their role as the m
 
 Modern censorship systems increasingly rely on IP blocking, protocol fingerprinting, and active probing. Dawn Bridge Core provides a flexible, modular foundation for building resilient communication tools that can adapt to evolving adversarial environments. Its design enables:
 
-- **Rapid protocol evolution**  
-- **Dynamic node updates without central points of failure**  
-- **Secure, obfuscated transport channels**  
-- **Future-proof extensibility for distributed systems**
+- Rapid protocol evolution  
+- Dynamic node updates without central points of failure  
+- Secure, obfuscated transport channels  
+- Future-proof extensibility for distributed systems  
 
 ## License
 
